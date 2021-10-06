@@ -21,7 +21,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png",
-      "permissions":[ "CAMERA", "WRITE_EXTERNAL_STORAGE", "CAMERA_ROLL" ]
+      "permissions": [
+        "CAMERA",
+        "WRITE_EXTERNAL_STORAGE",
+        "CAMERA_ROLL"
+      ]
     },
     "description": "camera pwa app "
   }
