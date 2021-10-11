@@ -4,6 +4,7 @@ frontend:
     preBuild:
       commands:
         - nvm install 14
+        - nvm use 14
         - npm install --quiet --global expo-cli
         - >
           if [ -f yarn.lock ]; then
