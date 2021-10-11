@@ -4,6 +4,7 @@ import * as Permissions from 'expo-permissions';
 import {StyleSheet, Text, View, TouchableOpacity, Alert, ImageBackground, Image} from 'react-native'
 import {Camera} from 'expo-camera'
 let camera: Camera
+
 export default function App() {
 
   const [startCamera, setStartCamera] = React.useState(false)
@@ -312,3 +313,4 @@ const CameraPreview = ({photo, retakePicture, savePhoto}: any) => {
     </View>
   )
 }
+
