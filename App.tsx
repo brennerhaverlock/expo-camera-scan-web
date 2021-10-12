@@ -4,6 +4,13 @@ import * as Permissions from 'expo-permissions';
 import {StyleSheet, Text, View, TouchableOpacity, Alert, ImageBackground, Image} from 'react-native'
 import {Camera} from 'expo-camera'
 let camera: Camera
+
+import Amplify from 'aws-amplify'
+import config from './src/aws-exports' 
+
+Amplify.configure(config)
+
+
 export default function App() {
 
   const [startCamera, setStartCamera] = React.useState(false)
